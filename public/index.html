@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="A real-time video client">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1">
+  <base target="_blank">
+
+  <title>Videobox</title>
+
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <h1 class="item">Welcome to <stong>VideoBox</stong></h1>
+  <div id="container">
+    <video class="item" autoplay width="480" height="320"></video>
+    <button id="snapshot">Take a snapshot</button>
+    <div class="buttons">
+      <button class="filter" data-filter="sepia">Sepia</button>
+      <button class="filter" data-filter="grayscale">Grayscale</button>
+      <button class="filter" data-filter="blur">Blur</button>
+      <button class="filter" data-filter="invert">Invert</button>
+    </div>
+    <canvas class="item"></canvas>
+  </div>
+
+  <script src="js/bundle.js"></script>
+</body>
+</html>

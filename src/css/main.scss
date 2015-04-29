@@ -1,0 +1,44 @@
+#container {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+}
+
+video {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+.grayscale {
+  filter: grayscale(1);
+}
+
+.invert {
+  filter: invert(100%);
+}
+
+.sepia {
+  filter: sepia(1);
+}
+
+button {
+  width: 110px;
+}
+
+button#snapshot {
+  margin: 0 10px 25px 0;
+}
